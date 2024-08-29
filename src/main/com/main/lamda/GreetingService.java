@@ -1,2 +1,6 @@
-package main.lamda;public interface GreetingService {
+package main.lamda;
+
+@FunctionalInterface
+public interface GreetingService {
+    void greet(String name);
 }

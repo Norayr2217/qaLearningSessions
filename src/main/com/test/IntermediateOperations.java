@@ -5,47 +5,61 @@ import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class IntermediateOperations {
 
-    public static void groupingBy(){
-        List<String> items = Arrays.asList("apple", "banana", "cherry", "apricot", "blueberry");
-
-        Map<Character, List<String>> groupedByFirstLetter = items.stream()
-                .collect(Collectors.groupingBy(s -> s.charAt(0)));
-
-        System.out.println(groupedByFirstLetter);
-        // Output: {a=[apple, apricot], b=[banana, blueberry], c=[cherry]}
+    public static void main(String[] args) {
+        limitAndSkip();
     }
 
-    public static void partitioningBy(){
-        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+    private static void onlyIntermediateOperator() {
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
-        Map<Boolean, List<Integer>> partitionedByEven = numbers.stream()
-                .collect(Collectors.partitioningBy(n -> n % 2 == 0));
+        Stream<Integer> integerStream = numbers.stream().filter(number -> number < 4);
+        integerStream.forEach(item -> System.out.println(item));
 
-        System.out.println(partitionedByEven);
-        // Output: {false=[1, 3, 5, 7, 9], true=[2, 4, 6, 8, 10]}
     }
 
-    public static void mappingAndSummarizing(){
-        List<String> phrases = Arrays.asList("hello world", "java streams", "functional programming");
-
-        IntSummaryStatistics statistics = phrases.stream()
-                .mapToInt(String::length)
-                .summaryStatistics();
-
-        System.out.println(statistics);
-        // Output: IntSummaryStatistics{count=3, sum=45, min=11, average=15.0, max=19}
+    public static void limitAndSkip() {
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> limitedNumbers = numbers.stream()
+                .peek(i -> System.out.println("I am in a stream loop"))
+                .skip(2)
+                .limit(2)
+                .collect(Collectors.toList());
+        System.out.println(limitedNumbers);
     }
 
-    public static void creatingMapFromAList(){
-        List<String> names = Arrays.asList("John", "Jane", "Jack");
+    public static void distinct() {
+        List<Integer> numbers = Arrays.asList(1, 2, 2, 3, 3, 3, 4, 5);
+        List<Integer> distinctNumbers = numbers.stream()
+                .distinct() //removes duplicates
+                .collect(Collectors.toList());
+        System.out.println(distinctNumbers); // Output: [1, 2, 3, 4, 5]
+    }
 
-        Map<String, Integer> nameLengthMap = names.stream()
-                .collect(Collectors.toMap(name -> name, String::length));
+    public static void sorting() {
+        List<String> names = Arrays.asList("Bob", "Alice", "Charlie");
+        List<String> sortedNames = names.stream()
+                .sorted()
+                .collect(Collectors.toList());
+        System.out.println(sortedNames); // Output: [Alice, Bob, Charlie]
+    }
 
-        System.out.println(nameLengthMap);
-        // Output: {John=4, Jane=4, Jack=4}
+    public static void mapping() {
+        List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
+        List<Integer> nameLengths = names.stream()
+                .map(String::length)
+                .collect(Collectors.toList());
+        System.out.println(nameLengths); // Output: [5, 3, 7]
+    }
+
+    public static void filtering() {
+        List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David", "Emma");
+        List<String> filteredNames = names.stream()
+                .filter(name -> name.length() > 4)
+                .collect(Collectors.toList());
+        System.out.println(filteredNames); // Output: [Alice, Charlie, David]
     }
 }
