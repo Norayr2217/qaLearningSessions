@@ -2,7 +2,6 @@ package test.appium;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.ios.IOSDriver;
-import io.appium.java_client.ios.options.XCUITestOptions;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,10 +9,6 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import test.appium.common.AppiumServerManager;
 import test.appium.common.DriverManager;
-import test.appium.pages.LoginPage;
-
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.time.Duration;
 
 public class IOSCalculatorTest {

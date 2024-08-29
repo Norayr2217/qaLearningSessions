@@ -1,11 +1,6 @@
 package test.appium.pages;
 
-import hierarchy.XCUIElement;
-import io.appium.java_client.AppiumBy;
-import io.appium.java_client.ios.IOSDriver;
-import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import test.appium.pages.base.BasePage;

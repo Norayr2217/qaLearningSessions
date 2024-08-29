@@ -23,7 +23,6 @@ public class BasePage {
     }
 
     public void click(WebElement element) {
-        System.out.println("Fntul ");
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
