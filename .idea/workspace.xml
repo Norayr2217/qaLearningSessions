@@ -4,113 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="514d6839-6868-4ba7-9384-e5c76085a31a" name="Changes" comment="Ios testing examples with Appium">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/SimpleKafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/SimpleKafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/OrderConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/OrderProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/workspace/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/workspace/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Assets.car" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/UITableViewController-YvC-vN-mSd.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/YvC-vN-mSd-view-Udh-X7-hOc.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/AlertControllerViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/AlertControllerViewController.storyboardc/UITableViewController-Va4-Ge-jQn.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/AlertControllerViewController.storyboardc/Va4-Ge-jQn-view-iro-ev-0xV.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ButtonViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ButtonViewController.storyboardc/UITableViewController-gl0-hM-EWg.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ButtonViewController.storyboardc/gl0-hM-EWg-view-gDs-OX-aHt.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/Credits.rtf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/7Xn-ho-KP8-view-LFl-gd-u3P.nib/objects-14.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/7Xn-ho-KP8-view-LFl-gd-u3P.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/UIViewController-7Xn-ho-KP8.nib/objects-14.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/DatePickerController.storyboardc/UIViewController-7Xn-ho-KP8.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ImageViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ImageViewController.storyboardc/UIViewController-XCI-A9-c2M.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ImageViewController.storyboardc/XCI-A9-c2M-view-InE-1J-uPb.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/InfoPlist.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/LaunchScreen.storyboardc/Axx-hg-9Xm-view-Bd8-dr-7ve.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/LaunchScreen.storyboardc/UINavigationController-4yX-ry-qSy.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/Localizable.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/GgB-cT-22O-view-aE8-Eb-ul8.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/MasterViewController.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/initialDetail.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/ioe-is-9Fo-view-Ie1-Wu-iah.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/navInitialDetail.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/Main.storyboardc/splitView.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/PageControlViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/PageControlViewController.storyboardc/UIViewController-ZSF-lM-gQa.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/PageControlViewController.storyboardc/ZSF-lM-gQa-view-1Df-6J-Q8v.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/PickerViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/PickerViewController.storyboardc/UIViewController-hIc-I2-PiV.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/PickerViewController.storyboardc/hIc-I2-PiV-view-EB5-Ny-mbq.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ProgressViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ProgressViewController.storyboardc/UITableViewController-aY0-FD-8DD.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ProgressViewController.storyboardc/aY0-FD-8DD-view-vxe-YC-yBi.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/CustomSearchBarViewController.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/DefaultSearchBarViewController.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Mhd-Bs-sIn-view-YVy-et-UAQ.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Search.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/SearchBarEmbedInNavBarViewController.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/SearchResultsViewController.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/Thx-B6-QkK-view-QvM-3S-GbD.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/aRM-gX-SK9-view-1PE-AW-QJq.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/aTT-8g-UdL-view-VZF-3b-rcm.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SearchViewControllers.storyboardc/v21-vF-FLh-view-d2N-kr-XWw.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SegmentedControlViewController.storyboardc/Eil-ie-nN6-view-fLQ-5f-tUh.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SegmentedControlViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SegmentedControlViewController.storyboardc/UITableViewController-Eil-ie-nN6.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SliderViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SliderViewController.storyboardc/UITableViewController-laz-6N-ZhE.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SliderViewController.storyboardc/laz-6N-ZhE-view-8xG-xW-Mvc.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/StackViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/StackViewController.storyboardc/K8w-Uq-R9J-view-Hwb-09-b4P.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/StackViewController.storyboardc/UIViewController-K8w-Uq-R9J.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/StepperViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/StepperViewController.storyboardc/Ob2-pp-aCj-view-aQ3-9F-Tmi.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/StepperViewController.storyboardc/UITableViewController-Ob2-pp-aCj.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SwitchViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SwitchViewController.storyboardc/UITableViewController-zcI-oN-J3j.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/SwitchViewController.storyboardc/zcI-oN-J3j-view-4ER-nG-feZ.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/TextFieldViewController.storyboardc/DSJ-7r-oCY-view-dyj-uS-k8j.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/TextFieldViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/TextFieldViewController.storyboardc/UITableViewController-DSJ-7r-oCY.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/TextViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/TextViewController.storyboardc/UIViewController-pUP-b0-VMf.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/TextViewController.storyboardc/pUP-b0-VMf-view-eAJ-am-dgQ.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/CustomToolbarViewController.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/DefaultToolbarViewController.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/FY6-YQ-KUW-view-cQQ-vC-cql.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/P5B-ej-GR8-view-lTJ-Dz-yrG.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/TintedToolbarViewController.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/Toolbars.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/c6p-Xx-oIp-view-LTn-gr-hZ8.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ToolbarViewControllers.storyboardc/cTo-Y6-RL4-view-YY9-uv-rey.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/WebViewController.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/WebViewController.storyboardc/UIViewController-i9U-A8-mkf.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/WebViewController.storyboardc/i9U-A8-mkf-view-cde-Ag-lVB.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/PkgInfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/UIKitCatalog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/_CodeSignature/CodeResources" afterDir="false" />
+    <list default="true" id="514d6839-6868-4ba7-9384-e5c76085a31a" name="Changes" comment="kafka introduction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/appium/common/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/appium/common/DriverManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +209,7 @@
       <workItem from="1730101399069" duration="599000" />
       <workItem from="1730109779818" duration="595000" />
       <workItem from="1733218878598" duration="1148000" />
-      <workItem from="1733221621889" duration="11484000" />
+      <workItem from="1733221621889" duration="12716000" />
     </task>
     <task id="LOCAL-00001" summary="Ios testing examples with Appium">
       <option name="closed" value="true" />
@@ -332,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724925488395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="kafka introduction">
+      <option name="closed" value="true" />
+      <created>1733728108057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733728108057</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +243,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ios testing examples with Appium" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ios testing examples with Appium" />
+    <MESSAGE value="kafka introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="kafka introduction" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,4 +1,4 @@
-package main.utils;
+package main.com.main.utils;
 
 import java.net.HttpURLConnection;
 import java.net.URL;

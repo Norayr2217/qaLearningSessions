@@ -1,8 +1,6 @@
-package test;
+package main.com.test;
 
-import main.lamda.GreetingService;
-
-import java.util.List;
+import main.com.main.lamda.GreetingService;
 
 public class LamdaTests {
 

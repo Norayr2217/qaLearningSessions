@@ -1,4 +1,4 @@
-package test;
+package main.com.test;
 
 import main.driver.DriverFactory;
 import main.utils.LinkUtil;

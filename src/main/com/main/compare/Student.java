@@ -1,4 +1,4 @@
-package main.compare;
+package main.com.main.compare;
 
 public class Student {
 

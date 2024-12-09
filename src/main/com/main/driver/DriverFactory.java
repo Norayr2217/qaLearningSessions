@@ -1,4 +1,4 @@
-package main.driver;
+package main.com.main.driver;
 
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;

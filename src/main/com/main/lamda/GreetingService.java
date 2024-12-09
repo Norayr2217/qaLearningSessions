@@ -1,4 +1,4 @@
-package main.lamda;
+package main.com.main.lamda;
 
 @FunctionalInterface
 public interface GreetingService {
