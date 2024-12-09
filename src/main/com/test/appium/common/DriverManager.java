@@ -1,4 +1,4 @@
-package test.appium.common;
+package main.com.test.appium.common;
 
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;

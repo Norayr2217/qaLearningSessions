@@ -1,10 +1,10 @@
-package test.appium.tests;
+package main.com.test.appium.tests;
 
 import io.appium.java_client.ios.IOSDriver;
 import org.testng.annotations.*;
-import test.appium.common.DriverManager;
-import test.appium.pages.LoginPage;
-import test.appium.common.AppiumServerManager;
+import main.com.test.appium.common.DriverManager;
+import main.com.test.appium.pages.LoginPage;
+import main.com.test.appium.common.AppiumServerManager;
 
 public class LoginTests {
 

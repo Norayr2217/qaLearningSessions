@@ -1,4 +1,4 @@
-package test.appium.pages;
+package main.com.test.appium.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
