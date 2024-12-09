@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="514d6839-6868-4ba7-9384-e5c76085a31a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/appium/IOSCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/appium/UIKitCatalogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/appium/common/AppiumServerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/appium/common/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/appium/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/appium/pages/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/appium/tests/LoginTests.java" afterDir="false" />
+    <list default="true" id="514d6839-6868-4ba7-9384-e5c76085a31a" name="Changes" comment="Ios testing examples with Appium">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/SimpleKafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/SimpleKafkaProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/OrderConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/kafka/examples/OrderProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/workspace/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/workspace/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Assets.car" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/Info.plist" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/Base.lproj/ActivityIndicatorViewController.storyboardc/UITableViewController-YvC-vN-mSd.nib" afterDir="false" />
@@ -105,20 +109,8 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/UIKitCatalog.app/_CodeSignature/CodeResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/main/compare/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/main/compare/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/main/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/main/driver/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/main/lamda/GreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/main/lamda/GreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/main/utils/LinkUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/main/utils/LinkUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/BrokenLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/BrokenLinksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/ComparatorFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/ComparatorFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/FirstClassFunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/FirstClassFunctionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/FlattenArraysExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/FlattenArraysExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/FunctionalInterfaceExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/FunctionalInterfaceExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/HigherOrderFunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/HigherOrderFunctionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/ImmutablePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/ImmutablePerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/IntermediateOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/IntermediateOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/LamdaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/LamdaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/TerminalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/TerminalOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/appium/common/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/appium/common/DriverManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +147,22 @@
   "keyToString": {
     "Application.AppiumIOSExample.executor": "Run",
     "Application.ComparatorFlow.executor": "Run",
+    "Application.DemoApplication.executor": "Run",
     "Application.FirstClassFunctionExample.executor": "Run",
     "Application.FunctionalInterfaceExamples.executor": "Run",
     "Application.HigherOrderFunctionExample.executor": "Run",
     "Application.IntermediateOperations.executor": "Run",
+    "Application.KafkaConsumerExample.executor": "Run",
     "Application.LamdaTests.executor": "Run",
+    "Application.SimpleKafkaConsumer.executor": "Run",
+    "Application.SimpleKafkaProducer.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.main.com.test.kafka.KafkaProducerExample.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.appium-ios-example [clean].executor": "Run",
+    "Maven.appium-ios-example [install].executor": "Run",
+    "Maven.appium-ios-example [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -171,17 +171,19 @@
     "TestNG.IOSCalculatorTest.testAddition.executor": "Run",
     "TestNG.LoginTests.executor": "Run",
     "TestNG.LoginTests.invalidEmailPasswordValidation.executor": "Run",
+    "TestNG.LoginTests.validCredentialsLoginValidation.executor": "Run",
     "TestNG.UIKitCatalogTest.testExample.executor": "Run",
+    "com.codeium.enabled": "true",
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/norayrsargsyan/Downloads/lamdaAndStreams/src/main/resources",
+    "last_opened_file_path": "/Users/norayrsargsyan/Downloads/lamdaAndStreams",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "com.api.plugin.eolink.settings.upload.UploadSettingsConfigurable",
@@ -194,19 +196,74 @@
       <recent name="$PROJECT_DIR$/src/main/com/main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/com/test" />
+      <recent name="$PROJECT_DIR$/src/main/com/test/kafka" />
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/com" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.IOSCalculatorTest.testAddition">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test" />
-      <module name="learningSessions" />
+  <component name="RunManager" selected="Application.DemoApplication">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.examples.DemoApplication" />
+      <module name="appium-ios-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="main.com.test.kafka.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.KafkaConsumerExample" />
+      <module name="appium-ios-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.test.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleKafkaConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.SimpleKafkaConsumer" />
+      <module name="appium-ios-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.test.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleKafkaProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.SimpleKafkaProducer" />
+      <module name="appium-ios-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.test.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.com.test.kafka.KafkaProducerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.KafkaProducerExample" />
+      <module name="appium-ios-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.test.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,96 +272,23 @@
       </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="learningSessions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="learningSessions" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOSCalculatorTest.testAddition" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="learningSessions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.appium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.appium" />
-      <option name="MAIN_CLASS_NAME" value="test.appium.IOSCalculatorTest" />
-      <option name="METHOD_NAME" value="testAddition" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="learningSessions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.appium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.appium.tests.LoginTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.invalidEmailPasswordValidation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="learningSessions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.appium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.appium.tests.LoginTests" />
-      <option name="METHOD_NAME" value="invalidEmailPasswordValidation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UIKitCatalogTest.testExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="learningSessions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.appium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.appium" />
-      <option name="MAIN_CLASS_NAME" value="test.appium.UIKitCatalogTest" />
-      <option name="METHOD_NAME" value="testExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.IOSCalculatorTest.testAddition" />
-        <item itemvalue="TestNG.LoginTests" />
-        <item itemvalue="TestNG.LoginTests.invalidEmailPasswordValidation" />
-        <item itemvalue="TestNG.UIKitCatalogTest.testExample" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DemoApplication" />
+        <item itemvalue="Application.SimpleKafkaConsumer" />
+        <item itemvalue="Application.SimpleKafkaProducer" />
+        <item itemvalue="Application.KafkaConsumerExample" />
+        <item itemvalue="Application.main.com.test.kafka.KafkaProducerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -321,12 +305,42 @@
       <workItem from="1718970094594" duration="18015000" />
       <workItem from="1721049484553" duration="10153000" />
       <workItem from="1721720097930" duration="13496000" />
-      <workItem from="1724311628353" duration="37133000" />
+      <workItem from="1724311628353" duration="45120000" />
+      <workItem from="1725879031116" duration="597000" />
+      <workItem from="1726052646019" duration="598000" />
+      <workItem from="1729238090024" duration="6784000" />
+      <workItem from="1729666051706" duration="598000" />
+      <workItem from="1729842684579" duration="599000" />
+      <workItem from="1730101399069" duration="599000" />
+      <workItem from="1730109779818" duration="595000" />
+      <workItem from="1733218878598" duration="1148000" />
+      <workItem from="1733221621889" duration="11484000" />
     </task>
+    <task id="LOCAL-00001" summary="Ios testing examples with Appium">
+      <option name="closed" value="true" />
+      <created>1724925404399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724925404399</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ios testing examples with Appium">
+      <option name="closed" value="true" />
+      <created>1724925488395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724925488395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ios testing examples with Appium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ios testing examples with Appium" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

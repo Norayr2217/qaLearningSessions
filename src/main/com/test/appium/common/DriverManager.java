@@ -21,7 +21,7 @@ public class DriverManager {
             if (driverThread.get() == null) {
                 XCUITestOptions options = new XCUITestOptions();
                 options.setPlatformName("iOS");
-                options.setPlatformVersion("17.5.1");
+                options.setPlatformVersion("17.6.1");
                 options.setUdid("00008130-000E0D511E30001C");
                 options.setAutomationName("XCUITest");
 //                options.setBundleId("com.podcastle.ai");
@@ -29,6 +29,7 @@ public class DriverManager {
                 options.setDeviceName("iPhone");
                 options.setCapability("xcodeOrgId", "RXWNRH97G5");
                 options.setCapability("xcodeSigningId", "iPhone Developer");
+                options.setCapability("autoDismissAlerts", true);
 
                 try {
                     driver = new IOSDriver(new URL("http://localhost:4723/"), options);
@@ -48,8 +49,7 @@ public class DriverManager {
                 options.setPlatformName("iOS");
                 options.setPlatformVersion("17.5");
                 options.setAutomationName("XCUITest");
-//                options.setBundleId("com.podcastle.ai");
-                options.setBundleId("com.apple.calculator");
+                options.setBundleId("com.podcastle.ai");
                 options.setDeviceName("iPhone 15 Pro");
 
                 try {
