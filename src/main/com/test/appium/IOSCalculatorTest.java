@@ -7,8 +7,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import test.appium.common.AppiumServerManager;
-import test.appium.common.DriverManager;
+import main.com.test.appium.common.AppiumServerManager;
+import main.com.test.appium.common.DriverManager;
 import java.time.Duration;
 
 public class IOSCalculatorTest {

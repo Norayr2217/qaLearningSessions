@@ -3,7 +3,7 @@ package main.com.test.appium.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import test.appium.pages.base.BasePage;
+import main.com.test.appium.pages.base.BasePage;
 
 public class LoginPage extends BasePage {
 
