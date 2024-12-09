@@ -1,6 +1,6 @@
 package main.com.test;
 
-import main.compare.Student;
+import main.com.main.compare.Student;
 
 import java.util.Comparator;
 import java.util.Optional;

@@ -1,7 +1,7 @@
 package main.com.test;
 
-import main.driver.DriverFactory;
-import main.utils.LinkUtil;
+import main.com.main.driver.DriverFactory;
+import main.com.main.utils.LinkUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
@@ -9,8 +9,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.LocalDateTime;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class BrokenLinksTest {
 
