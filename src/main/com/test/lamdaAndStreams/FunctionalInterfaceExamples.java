@@ -1,11 +1,11 @@
-package main.com.test;
+package main.com.test.lamdaAndStreams;
 
 import java.util.function.*;
 
 public class FunctionalInterfaceExamples {
     public static void main(String[] args) {
 //        // Function<T, R>
-//        Function<String, Integer> stringLength = String::length;
+//        Function<String, Integer> stringLength = value -> value.length();
 //        Function<Integer, Integer> doubleValue = x -> x * 2;
 //        Function<String, Integer> lengthAndDouble = stringLength.andThen(doubleValue);
 //        System.out.println(lengthAndDouble.apply("Hello")); // 10
@@ -15,13 +15,13 @@ public class FunctionalInterfaceExamples {
 //        Consumer<String> printUpper = x -> System.out.println(x.toUpperCase());
 //        Consumer<String> printAndUpper = print.andThen(printUpper);
 //        printAndUpper.accept("hello"); // prints "hello" and "HELLO"
-//
+////
 //        // Supplier<T>
 //        Supplier<String> supplier = () -> "Hello";
 //        System.out.println(supplier.get()); // Hello
 //
-//        // BiFunction<T, U, R>
-//        BiFunction<String, String, Integer> concatenateAndLength = (x, y) -> (x + y).length();
+        // BiFunction<T, U, R>
+        BiFunction<String, String, Integer> concatenateAndLength = (x, y) -> (x + y).length();
 //        Function<Integer, Integer> addFive = x -> x + 5;
 //        BiFunction<String, String, Integer> concatenateLengthAndAddFive = concatenateAndLength.andThen(addFive);
 //        System.out.println(concatenateLengthAndAddFive.apply("Hello", "World")); // 15
@@ -33,12 +33,12 @@ public class FunctionalInterfaceExamples {
 //        printBothAndUpper.accept("Hello", "World"); // prints "Hello World" and "HELLO WORLD"
 //
 //        // Predicate<T>
-//        Predicate<Integer> isPositive = x -> x > 0;
-//        Predicate<Integer> isLessThanTen = x -> x < 10;
-//        Predicate<Integer> isEven = x -> x % 2 == 0;
-//
-//        Predicate<Integer> complexPredicate = isPositive.and(isLessThanTen).or(isEven).negate();
-//
+        Predicate<Integer> isPositive = x -> x > 0;
+        Predicate<Integer> isLessThanTen = x -> x < 10;
+        Predicate<Integer> isEven = x -> x % 2 == 0;
+
+        Predicate<Integer> complexPredicate = isPositive.and(isLessThanTen).or(isEven).negate();
+
 //        System.out.println(complexPredicate.test(5));
 //        System.out.println(complexPredicate.test(12));
 //        System.out.println(complexPredicate.test(-3));

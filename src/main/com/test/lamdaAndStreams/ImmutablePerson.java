@@ -1,7 +1,4 @@
-package main.com.test;
-
-import java.util.ArrayList;
-import java.util.List;
+package main.com.test.lamdaAndStreams;
 
 public final class ImmutablePerson {
     private final String name;

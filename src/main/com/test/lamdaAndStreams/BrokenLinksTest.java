@@ -1,4 +1,4 @@
-package main.com.test;
+package main.com.test.lamdaAndStreams;
 
 import main.com.main.driver.DriverFactory;
 import main.com.main.utils.LinkUtil;

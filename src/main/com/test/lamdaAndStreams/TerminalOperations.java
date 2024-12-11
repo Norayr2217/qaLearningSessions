@@ -1,4 +1,4 @@
-package main.com.test;
+package main.com.test.lamdaAndStreams;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -88,7 +88,7 @@ public class TerminalOperations {
     }
 
     private static void optionalExample() {
-        List<Integer> numbers = Arrays.asList(5, 3, 7, 9, 1);
+        List<Integer> numbers = Arrays.asList(1);
 
         Optional<Integer> max = numbers.stream()
                 .max(Integer::compare);

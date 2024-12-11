@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="514d6839-6868-4ba7-9384-e5c76085a31a" name="Changes" comment="kafka introduction">
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/abstractVSInterface/APIAutomationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/abstractVSInterface/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/abstractVSInterface/TestLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/annotiations/AnnotationProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/annotiations/TestInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/annotiations/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/enums/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/enums/TestExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/enums/TestStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/generic/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/BrokenLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/BrokenLinksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/ComparatorFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/ComparatorFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/FirstClassFunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/FirstClassFunctionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/FlattenArraysExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/FlattenArraysExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/FunctionalInterfaceExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/FunctionalInterfaceExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/HigherOrderFunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/HigherOrderFunctionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/ImmutablePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/ImmutablePerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/IntermediateOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/IntermediateOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/LamdaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/LamdaTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/TerminalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/TerminalOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnnotationProcessor.executor": "Run",
     "Application.AppiumIOSExample.executor": "Run",
     "Application.ComparatorFlow.executor": "Run",
     "Application.DemoApplication.executor": "Run",
@@ -49,10 +70,13 @@
     "Application.IntermediateOperations.executor": "Run",
     "Application.KafkaConsumerExample.executor": "Run",
     "Application.LamdaTests.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.SimpleKafkaConsumer.executor": "Run",
     "Application.SimpleKafkaProducer.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TestExecutor.executor": "Run",
+    "Application.main.com.test.enums.Main.executor": "Run",
     "Application.main.com.test.kafka.KafkaProducerExample.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.appium-ios-example [clean].executor": "Run",
@@ -100,13 +124,13 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoApplication">
-    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.examples.DemoApplication" />
+  <component name="RunManager" selected="Application.TerminalOperations">
+    <configuration name="FirstClassFunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.lamdaAndStreams.FirstClassFunctionExample" />
       <module name="appium-ios-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.test.kafka.examples.*" />
+          <option name="PATTERN" value="main.com.test.lamdaAndStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.KafkaConsumerExample" />
+    <configuration name="FunctionalInterfaceExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.lamdaAndStreams.FunctionalInterfaceExamples" />
       <module name="appium-ios-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.test.kafka.*" />
+          <option name="PATTERN" value="main.com.test.lamdaAndStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleKafkaConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.SimpleKafkaConsumer" />
+    <configuration name="LamdaTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.lamdaAndStreams.LamdaTests" />
       <module name="appium-ios-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.test.kafka.*" />
+          <option name="PATTERN" value="main.com.test.lamdaAndStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleKafkaProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.SimpleKafkaProducer" />
+    <configuration name="TerminalOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.lamdaAndStreams.TerminalOperations" />
       <module name="appium-ios-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.test.kafka.*" />
+          <option name="PATTERN" value="main.com.test.lamdaAndStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.com.test.kafka.KafkaProducerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.test.kafka.KafkaProducerExample" />
+    <configuration name="TestExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.enums.TestExecutor" />
       <module name="appium-ios-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.test.kafka.*" />
+          <option name="PATTERN" value="main.com.test.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoApplication" />
-        <item itemvalue="Application.SimpleKafkaConsumer" />
-        <item itemvalue="Application.SimpleKafkaProducer" />
-        <item itemvalue="Application.KafkaConsumerExample" />
-        <item itemvalue="Application.main.com.test.kafka.KafkaProducerExample" />
+        <item itemvalue="Application.TerminalOperations" />
+        <item itemvalue="Application.FunctionalInterfaceExamples" />
+        <item itemvalue="Application.FirstClassFunctionExample" />
+        <item itemvalue="Application.LamdaTests" />
+        <item itemvalue="Application.TestExecutor" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +233,7 @@
       <workItem from="1730101399069" duration="599000" />
       <workItem from="1730109779818" duration="595000" />
       <workItem from="1733218878598" duration="1148000" />
-      <workItem from="1733221621889" duration="12716000" />
+      <workItem from="1733221621889" duration="21771000" />
     </task>
     <task id="LOCAL-00001" summary="Ios testing examples with Appium">
       <option name="closed" value="true" />
@@ -235,7 +259,39 @@
       <option name="project" value="LOCAL" />
       <updated>1733728108057</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kafka introduction">
+      <option name="closed" value="true" />
+      <created>1733737881657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733737881657</updated>
+    </task>
+    <task id="LOCAL-00005" summary="kafka introduction">
+      <option name="closed" value="true" />
+      <created>1733737925753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733737925753</updated>
+    </task>
+    <task id="LOCAL-00006" summary="kafka introduction">
+      <option name="closed" value="true" />
+      <created>1733737985788</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733737985788</updated>
+    </task>
+    <task id="LOCAL-00007" summary="kafka introduction">
+      <option name="closed" value="true" />
+      <created>1733738017089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733738017089</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

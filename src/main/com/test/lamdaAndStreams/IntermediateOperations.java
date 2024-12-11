@@ -1,4 +1,4 @@
-package main.com.test;
+package main.com.test.lamdaAndStreams;
 
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
@@ -16,8 +16,17 @@ public class IntermediateOperations {
     private static void onlyIntermediateOperator() {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
-        Stream<Integer> integerStream = numbers.stream().filter(number -> number < 4);
+        Stream<Integer> integerStream = numbers.stream().filter(number -> number < 4)
+                .map(number -> number * 2);
         integerStream.forEach(item -> System.out.println(item));
+
+        for (int i : numbers) {
+            if (i < 4) {
+                numbers.remove(i);
+            }
+        }
+
+        System.out.println(numbers);
 
     }
 
