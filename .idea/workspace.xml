@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="514d6839-6868-4ba7-9384-e5c76085a31a" name="Changes" comment="kafka introduction">
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/abstractVSInterface/APIAutomationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/abstractVSInterface/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/abstractVSInterface/TestLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/annotiations/AnnotationProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/annotiations/TestInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/annotiations/TestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/enums/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/enums/TestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/enums/TestStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/test/generic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/javaDesignPatterns/builderAndExecutorDesignPattern/BuilderAndExecutorDesignPatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/javaDesignPatterns/commandAndExecutorDesignPattern/CommandAndExecutorDesignPatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/javaDesignPatterns/contextAndStrategyDesignPattern/ContextAndExecutorDesignPatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/javaDesignPatterns/decoratorDesignPattern/DecoratorDesignPatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/javaDesignPatterns/factoryDesignPattern/FactoryDesignPatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/javaDesignPatterns/lazyLoadingDesignPattern/LazyLoadingDesignPatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/javaDesignPatterns/webDriverStrategy/WebDriverStrategyDesignPatternMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/BrokenLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/BrokenLinksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/ComparatorFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/ComparatorFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/FirstClassFunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/FirstClassFunctionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/FlattenArraysExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/FlattenArraysExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/FunctionalInterfaceExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/FunctionalInterfaceExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/HigherOrderFunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/HigherOrderFunctionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/ImmutablePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/ImmutablePerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/IntermediateOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/IntermediateOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/LamdaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/LamdaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/test/TerminalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/lamdaAndStreams/TerminalOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "YervandHH"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Norayr2217/qaLearningSessions.git",
+    "accountId": "322d066c-45ff-4e11-bb09-45b48d017615"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22/Contents/Home!/java.base/java/lang/UnsupportedOperationException.class" root0="SKIP_INSPECTION" />
     <setting file="jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22/Contents/Home!/java.base/java/util/function/BiConsumer.class" root0="SKIP_INSPECTION" />
@@ -62,6 +62,7 @@
   "keyToString": {
     "Application.AnnotationProcessor.executor": "Run",
     "Application.AppiumIOSExample.executor": "Run",
+    "Application.BuilderAndExecutorDesignPatternMain.executor": "Run",
     "Application.ComparatorFlow.executor": "Run",
     "Application.DemoApplication.executor": "Run",
     "Application.FirstClassFunctionExample.executor": "Run",
@@ -84,6 +85,7 @@
     "Maven.appium-ios-example [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AppiumDynamicPathTest.testExample.executor": "Run",
     "TestNG.BrokenLinksTest.linkTest.executor": "Run",
@@ -102,8 +104,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "com.api.plugin.eolink.settings.upload.UploadSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
@@ -124,7 +126,20 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TerminalOperations">
+  <component name="RunManager" selected="Application.BuilderAndExecutorDesignPatternMain">
+    <configuration name="BuilderAndExecutorDesignPatternMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.javaDesignPatterns.builderAndExecutorDesignPattern.BuilderAndExecutorDesignPatternMain" />
+      <module name="appium-ios-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.test.javaDesignPatterns.builderAndExecutorDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstClassFunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.com.test.lamdaAndStreams.FirstClassFunctionExample" />
       <module name="appium-ios-example" />
@@ -151,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LamdaTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.test.lamdaAndStreams.LamdaTests" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.test.generic.Main" />
       <module name="appium-ios-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.test.lamdaAndStreams.*" />
+          <option name="PATTERN" value="main.com.test.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,19 +192,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.test.enums.TestExecutor" />
-      <module name="appium-ios-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.com.test.enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuilderAndExecutorDesignPatternMain" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TerminalOperations" />
         <item itemvalue="Application.FunctionalInterfaceExamples" />
         <item itemvalue="Application.FirstClassFunctionExample" />
-        <item itemvalue="Application.LamdaTests" />
-        <item itemvalue="Application.TestExecutor" />
       </list>
     </recent_temporary>
   </component>
